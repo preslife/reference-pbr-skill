@@ -1,0 +1,74 @@
+{
+  "blender_version": "4.5.3 LTS",
+  "engine": "Cycles CPU",
+  "samples": 32,
+  "display_transform": "AgX",
+  "resolution": [
+    960,
+    640
+  ],
+  "mode": "Game normal mapping; no displacement or subdivision",
+  "plane": {
+    "blender_version": "4.5.3 LTS",
+    "object": "RepeatPlane_4m_2x2Tiles",
+    "material": "ReferencePBR \u00b7 Procedural stone with moss and painted stripe ",
+    "mode": "game",
+    "physical_size_m": [
+      2.0,
+      2.0
+    ],
+    "height_range_m": 0.006,
+    "scene_metres_per_unit": 1.0,
+    "estimated_subdivided_faces": null,
+    "packed_image_count": 4,
+    "output": null,
+    "warnings": [
+      "UV physical scale is not inferred: one UV tile must cover physical_size_m on the surface.",
+      "AO is retained as separate data; no AO has been multiplied into base color.",
+      "Inspect lighting, relief, seams, and the target engine; building nodes is not visual approval."
+    ]
+  },
+  "sphere": {
+    "blender_version": "4.5.3 LTS",
+    "object": "CurvedUVTest",
+    "material": "ReferencePBR \u00b7 Procedural stone with moss and painted stripe",
+    "mode": "game",
+    "physical_size_m": [
+      2.0,
+      2.0
+    ],
+    "height_range_m": 0.006,
+    "scene_metres_per_unit": 1.0,
+    "estimated_subdivided_faces": null,
+    "packed_image_count": 4,
+    "output": null,
+    "warnings": [
+      "UV physical scale is not inferred: one UV tile must cover physical_size_m on the surface.",
+      "AO is retained as separate data; no AO has been multiplied into base color.",
+      "Inspect lighting, relief, seams, and the target engine; building nodes is not visual approval."
+    ]
+  },
+  "plane_faces": 1,
+  "sphere_faces": 1152,
+  "light_positions": [
+    [
+      -3.5,
+      -4,
+      5
+    ],
+    [
+      3.5,
+      2.5,
+      3
+    ]
+  ],
+  "renders": [
+    "previews/blender_left.png",
+    "previews/blender_right.png"
+  ],
+  "saved_blend_reopened": true,
+  "packed_image_count_after_reopen": 4,
+  "all_managed_images_packed": true,
+  "all_managed_paths_relative": true,
+  "no_geometry_displacement": true
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "material_name": "Procedural stone with moss and painted stripe",
+  "resolution": {
+    "width": 384,
+    "height": 384
+  },
+  "physical_size_m": [
+    2.0,
+    2.0
+  ],
+  "height_range_m": 0.006,
+  "height_midlevel": 0.5,
+  "boundary_mode": "wrap",
+  "normal_convention": "OpenGL",
+  "maps": {
+    "basecolor": {
+      "file": "basecolor.png",
+      "color_space": "sRGB",
+      "bit_depth": 8
+    },
+    "height": {
+      "file": "height.png",
+      "color_space": "Non-Color",
+      "bit_depth": 16
+    },
+    "normal": {
+      "file": "normal.png",
+      "color_space": "Non-Color",
+      "bit_depth": 8
+    },
+    "roughness": {
+      "file": "roughness.png",
+      "color_space": "Non-Color",
+      "bit_depth": 8
+    },
+    "ao": {
+      "file": "ao.png",
+      "color_space": "Non-Color",
+      "bit_depth": 8
+    },
+    "metallic": {
+      "file": "metallic.png",
+      "color_space": "Non-Color",
+      "bit_depth": 8
+    },
+    "orm": {
+      "file": "orm.png",
+      "color_space": "Non-Color",
+      "bit_depth": 8,
+      "channels": {
+        "R": "ao",
+        "G": "roughness",
+        "B": "metallic"
+      }
+    }
+  },
+  "estimates": {
+    "height": "Registered numerical height from the repository synthetic test fixture; the physical range is specified by the test.",
+    "roughness": "Agent-authored dry-material assumption: 0.8 for stone/paint and 0.9 for selected moss, interpolated with mask_shade.png; not measured.",
+    "ao": "Neutral white. No physical occlusion was estimated."
+  },
+  "parameters": {
+    "invert_height": false,
+    "height_blur_at_1024px": 6,
+    "roughness": 0.8,
+    "cavity_strength": 0,
+    "metallic": 0
+  },
+  "sources": {
+    "basecolor": {
+      "file": "../sources/surface.png",
+      "sha256": "d09ce2eb0ce4575cc731ba1ca419b306b33750e5b9da07d1a533833175970589"
+    },
+    "basecolor_encoding": "sRGB (assumed for untagged sources)",
+    "height": {
+      "file": "../sources/authored-height.png",
+      "sha256": "6a71a5f99caa7cacb77e5b55fce8d3a2b4769465ff37ea26dc834c66c4768690"
+    },
+    "roughness": {
+      "file": "../sources/authored-roughness.png",
+      "sha256": "24bfb8b33b8c32c03eaecfb92ce65b4d5353f6ca5cb4bf0d17553e6f728f4dea"
+    }
+  },
+  "warnings": [
+    "Wrap processing is enabled; inspect the 2x2 tile preview because the source may still have seams."
+  ],
+  "provenance": {
+    "source_type": "Procedural color and corresponding authored height created for this repository test fixture",
+    "transforms": "No crop, rotation, resampling, de-lighting, inversion or normalization. Base pixels and 16-bit height samples preserved.",
+    "generation_tool_used": false,
+    "normal_amplitude": "Physical 2m tile and 0.006m full encoding range; no artistic amplification",
+    "mask_parameters_file": "../masks/masks.json",
+    "moss_height": "Authored height preserved. Soft mask supplied for potential later edits but unapplied.",
+    "checks_file": "../source_checks.json",
+    "public_example_note": "These images are synthetic test outputs, not photographs or renders supplied by the tutorial author."
+  }
+}

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Reference to PBR Materials"
+  short_description: "Build and verify PBR textures for Blender and games"
+  default_prompt: "Use $build-reference-pbr to turn this surface reference into a verified PBR material for Blender and my game engine."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

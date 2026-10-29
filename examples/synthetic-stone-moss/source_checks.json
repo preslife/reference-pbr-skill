@@ -1,0 +1,28 @@
+{
+  "basecolor_pixel_exact": true,
+  "height_samples_exact": true,
+  "height_min": 0.23999389639124133,
+  "height_max": 0.7600061036087586,
+  "actual_relief_span_m": 0.0031200732433051036,
+  "actual_offset_min_m": -0.0015600366216525518,
+  "actual_offset_max_m": 0.0015600366216525518,
+  "metres_per_texel": [
+    0.005208333333333333,
+    0.005208333333333333
+  ],
+  "known_ramp_expected_normal": [
+    -0.000599999649000308,
+    0.0008999994735004621,
+    0.9999994150005134
+  ],
+  "known_ramp_max_error": 1.5237577794262498e-08,
+  "known_ramp_signs_correct": true,
+  "moss_coverage_fraction": 0.2550591362847222,
+  "roughness_definition": {
+    "stone_and_paint": 0.8,
+    "moss": 0.9,
+    "assumption": "Dry opaque dielectrics; artist-selected, blended with antialiased moss shading mask; 8-bit storage rounds .9 to 230/255."
+  },
+  "height_mask_applied": false,
+  "extra_moss_relief_m": 0
+}

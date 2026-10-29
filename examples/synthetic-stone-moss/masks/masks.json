@@ -1,0 +1,21 @@
+{
+  "source": "../sources/surface.png",
+  "hue_degrees": [
+    70.0,
+    140.0
+  ],
+  "saturation": [
+    0.25,
+    1.0
+  ],
+  "value": [
+    0.0,
+    0.8
+  ],
+  "shade_radius_px": 1.0,
+  "height_radius_px": 5.0,
+  "boundary_mode": "wrap",
+  "coverage_fraction": 0.2550591362847222,
+  "mask_color_space": "Non-Color",
+  "note": "Colour selection is not semantic segmentation. Inspect overlay; masks do not modify height or material.json automatically."
+}

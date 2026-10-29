@@ -1,0 +1,152 @@
+{
+  "passed": true,
+  "scope": "File integrity and declared numerical consistency only; not physical truth or production readiness.",
+  "errors": [],
+  "warnings": [
+    "Numerical seam checks cannot prove seamless tiling, correct semantic relief, or photographic fidelity."
+  ],
+  "maps": {
+    "basecolor": {
+      "width": 384,
+      "height": 384,
+      "bit_depth": 8,
+      "min": 0.06666667014360428,
+      "max": 0.43529412150382996,
+      "unique_values": 53,
+      "seams": {
+        "left_right": {
+          "edge_mean_abs": 0.010620913468301296,
+          "interior_mean_abs": 0.007566752377897501,
+          "ratio": 1.403629052184264
+        },
+        "top_bottom": {
+          "edge_mean_abs": 0.0023794930893927813,
+          "interior_mean_abs": 0.006414083298295736,
+          "ratio": 0.37097944924180015
+        }
+      }
+    },
+    "height": {
+      "width": 384,
+      "height": 384,
+      "bit_depth": 16,
+      "min": 0.2399939000606537,
+      "max": 0.7600061297416687,
+      "unique_values": 9876,
+      "seams": {
+        "left_right": {
+          "edge_mean_abs": 0.004997450392693281,
+          "interior_mean_abs": 0.0031780831050127745,
+          "ratio": 1.572473163087154
+        },
+        "top_bottom": {
+          "edge_mean_abs": 0.0003337920643389225,
+          "interior_mean_abs": 0.005492901895195246,
+          "ratio": 0.060767891127073884
+        }
+      }
+    },
+    "normal": {
+      "width": 384,
+      "height": 384,
+      "bit_depth": 8,
+      "min": 0.4941176474094391,
+      "max": 1.0,
+      "unique_values": 5,
+      "seams": {
+        "left_right": {
+          "edge_mean_abs": 4.084972169948742e-05,
+          "interior_mean_abs": 5.27954580320511e-05,
+          "ratio": 0.7737355299519959
+        },
+        "top_bottom": {
+          "edge_mean_abs": 0.0,
+          "interior_mean_abs": 0.00010388437658548355,
+          "ratio": 0.0
+        }
+      },
+      "max_unit_length_error": 0.00013840198516845703,
+      "height_consistency_angle_p99_degrees": 0.2993614673614502
+    },
+    "roughness": {
+      "width": 384,
+      "height": 384,
+      "bit_depth": 8,
+      "min": 0.800000011920929,
+      "max": 0.9019607901573181,
+      "unique_values": 26,
+      "seams": {
+        "left_right": {
+          "edge_mean_abs": 0.0,
+          "interior_mean_abs": 0.0004129763110540807,
+          "ratio": 0.0
+        },
+        "top_bottom": {
+          "edge_mean_abs": 0.0,
+          "interior_mean_abs": 0.0004129763110540807,
+          "ratio": 0.0
+        }
+      }
+    },
+    "ao": {
+      "width": 384,
+      "height": 384,
+      "bit_depth": 8,
+      "min": 1.0,
+      "max": 1.0,
+      "unique_values": 1,
+      "seams": {
+        "left_right": {
+          "edge_mean_abs": 0.0,
+          "interior_mean_abs": 0.0,
+          "ratio": 0.0
+        },
+        "top_bottom": {
+          "edge_mean_abs": 0.0,
+          "interior_mean_abs": 0.0,
+          "ratio": 0.0
+        }
+      }
+    },
+    "metallic": {
+      "width": 384,
+      "height": 384,
+      "bit_depth": 8,
+      "min": 0.0,
+      "max": 0.0,
+      "unique_values": 1,
+      "seams": {
+        "left_right": {
+          "edge_mean_abs": 0.0,
+          "interior_mean_abs": 0.0,
+          "ratio": 0.0
+        },
+        "top_bottom": {
+          "edge_mean_abs": 0.0,
+          "interior_mean_abs": 0.0,
+          "ratio": 0.0
+        }
+      }
+    },
+    "orm": {
+      "width": 384,
+      "height": 384,
+      "bit_depth": 8,
+      "min": 0.0,
+      "max": 1.0,
+      "unique_values": 28,
+      "seams": {
+        "left_right": {
+          "edge_mean_abs": 0.0,
+          "interior_mean_abs": 0.00013765877520199865,
+          "ratio": 0.0
+        },
+        "top_bottom": {
+          "edge_mean_abs": 0.0,
+          "interior_mean_abs": 0.00013765877520199865,
+          "ratio": 0.0
+        }
+      }
+    }
+  }
+}
